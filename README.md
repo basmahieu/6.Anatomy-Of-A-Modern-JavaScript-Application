@@ -1,1 +1,1 @@
-# 6.Anatomy-Of-A-Modern-JavaScript-Application
+# Anatomy-Of-A-Modern-JavaScript-Application
