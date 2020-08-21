@@ -1,0 +1,28 @@
+{
+  "name": "6.Anatomy-Of-A-Modern-JavaScript-Application",
+  "version": "1.0.0",
+  "description": "Learning Javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basmahieu/6.Anatomy-Of-A-Modern-JavaScript-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basmahieu/6.Anatomy-Of-A-Modern-JavaScript-Application/issues"
+  },
+  "homepage": "https://github.com/basmahieu/6.Anatomy-Of-A-Modern-JavaScript-Application#readme",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0"
+  }
+}

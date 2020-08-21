@@ -1,1 +1,2 @@
-# Anatomy-Of-A-Modern-JavaScript-Application
+# simple-calculator
+Learning Javascript
