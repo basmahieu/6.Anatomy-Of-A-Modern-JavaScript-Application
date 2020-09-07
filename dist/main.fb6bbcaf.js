@@ -6604,7 +6604,7 @@ function getIcons(iconData) {
   for (var i = 0; i < 5; i++) {
     var icon = document.querySelector(".icon" + [i]);
     var iconValue = iconData["list"][i]["weather"][0]["icon"];
-    var iconSrc = "img/icons/".concat(iconValue, ".svg");
+    var iconSrc = "/img/icons/".concat(iconValue, ".svg");
     icon.setAttribute("src", iconSrc);
     console.log(iconSrc);
   }
@@ -6789,7 +6789,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53171" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59362" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
